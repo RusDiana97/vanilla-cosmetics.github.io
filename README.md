@@ -37,7 +37,7 @@ On this project you can find the following:
 
 **I recommend you to see the [LIVE DEMO](https://rusdiana97.github.io/vanilla-cosmetics.github.io/) of the project.**
 
-**The website was tested and works perfectly on the following browsers:**
+**The website was tested functional and non-functional and works perfectly on the following browsers:**
 - Mozilla Firefox
 - Google Chrome
 - Opera
@@ -46,27 +46,31 @@ On this project you can find the following:
 
 ## 3. How to Use the Project
 
-Next you can see a series of screenshots and gifs of the website to get an idea how the website works.
+ When you open the website on your browser you will see the main page or the index page:
 
-When you will open the site, you will see this:
+![gif-1](assets/gifs/gif-1.gif)
+
+The purpose of this page is to give you an idea about *Vanilla Cosmetics*. The page has a button with the path to the shop page. You can navigate to the shop page also from the navigation bar or from the footer. Based on the navigation bar you can also go to the *About section* or to the *Contact section*. The *About section* is for a short description of the website with its shop services which are 3D animated (hover over them). The last thing on the *About section* is a button which leads you to the shop page. Next is the *Contact section* based on a form where the user can message direct the administrator of the shop. The page has also a *footer* with links. *To go up to the page* click the up-arrow fixed on the right-bottom of the page. 
+
+*Notice that the index page has a reveal animation.*
+
+Let's say that we clicked on the button **SHOP NOW** from the top page for nagivate to the shop page. 
+
+Here we see the products from the shop with some categories on the left side. First of all we need to notice that the navigation bar is changed. From there we can go back to the index page, we have a search bar and some icons for: user account, favorite products, shopping cart. 
+
+Let's just take a look on this page:
+
+![gif-2](assets/gifs/gif-2.gif)
+
+From here we are interested on the **shop** and on the **shopping cart**. How the shop is working? 
 
 ![]()
 
-You can see the logo of the site, the navigation bar, the sidebar and some animations and transitions for grabbing the attention of the user.
 
-You can use the toggle for switching to the light theme:
 
 ![]()
 
-Navigate on the site with the help of the navigation bar positioned on the top and with the help of the fixed sidebar:
 
-![]()
-
-Do you want to see what's popular on the site? Just click on the Popular!
-
-![]()
-
-Or you can just scroll on the page and used the slider to see what's popular:
 
 ![]()
 
