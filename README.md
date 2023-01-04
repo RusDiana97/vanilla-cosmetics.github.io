@@ -1,4 +1,4 @@
-# Vanilla Cosmetics - a beauty eCommerce site | [LIVE DEMO](https://rusdiana97.github.io/vanilla-cosmetics.github.io/)
+# Vanilla Cosmetics - a beauty eCommerce website | [LIVE DEMO](https://rusdiana97.github.io/vanilla-cosmetics.github.io/)
 
 ## 1. Project Description
 
