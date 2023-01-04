@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Cosmetics</title>
+
+    <!------------ Icon Link ------------>
+    <link
+      rel="icon"
+      href="https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/528_handbag_love_heart_wedding_valentine_valentines_day_love-256.png"
+      type="image/x-icon"
+    />
+
+    <!---------- Bootstrap Icons ---------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!---------- CSS ---------->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="body-shop-page">
+    <!---------- Scroll to Top ---------->
+    <a class="scroll-to-top" href="shop.html">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!---------- HEADER ---------->
+    <header class="header-shop">
+      <a class="logo" href="index.html">Vanilla Cosmetics</a>
+      <form class="search-bar">
+        <i class="bi bi-search"></i>
+        <input
+          type="text"
+          name="search-bar"
+          class="search"
+          placeholder="Search"
+        />
+      </form>
+      <div class="profile-cart">
+        <i class="bi bi-person-fill"></i>
+        <i class="bi bi-suit-heart-fill"></i>
+        <a class="cart" href="cart.html">
+          <div class="shopping-cart-icon">
+            <i class="bi bi-bag-fill"></i>
+            <span id="cart-amount" class="cart-amount">0</span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-shop-page">
+      <section class="shop">
+        <div class="categories">
+          <h3 class="title">Categories</h3>
+          <div class="categories-list">
+            <div class="categories-item">
+              <input type="checkbox" name="all" id="all" checked="true" />
+              <label for="all">All</label>
+            </div>
+            <div class="categories-item">
+              <input type="checkbox" name="skin" id="skin" />
+              <label for="skin">Skin</label>
+            </div>
+            <div class="categories-item">
+              <input type="checkbox" name="hair" id="hair" />
+              <label for="hair">Hair</label>
+            </div>
+            <div class="categories-item">
+              <input type="checkbox" name="body" id="body" />
+              <label for="body">Body</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="products">
+          <h3 class="title">Products</h3>
+          <div class="products-list" id="products-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <!---------- FOOTER ---------->
+    <footer>
+      <div class="footer-links">
+        <div class="footer-title-email">
+          <a href="index.html">Vanilla Cosmetics</a>
+          <p>email@example.com</p>
+        </div>
+
+        <div>
+          <ul class="footer-list-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-list-links">
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Parteners</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="footer-subscribe">
+        <form class="subscribe-form" action="#">
+          <label for="subscribe-form"
+            >subscribe to receive news about our products</label
+          >
+          <input
+            type="email"
+            name="email-subscribe"
+            id="email-subscribe"
+            placeholder="Your email"
+          />
+          <button class="button-subscribe" id="button-form" type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+      <hr />
+
+      <div class="icons-links">
+        <ul class="icons-list-links">
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!---------- JS ---------->
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
