@@ -80,9 +80,13 @@ Our shopping cart will update automatically with the number of products that we 
 
 ![gif-4](assets/gifs/gif-4.gif)
 
+I have good news if you are not sure about the order and want to think again: I create a localStorage for your data so you can close/refresh the browser/go to the index page and it will be available on the next time: 
 
+![gif-5](assets/gifs/gif-5.gif)
 
-![]()
+To prove that the design is web responsive, I tested it on iPhone Pro Max iOS 14.6 from Mozilla Firefox's Responsive Design Mode:
+
+![gif-6](assets/gifs/gif-6.gif)
 
 *Try the website's functionalities in your browser for a personal experience: https://rusdiana97.github.io/vanilla-cosmetics.github.io/.*
 
