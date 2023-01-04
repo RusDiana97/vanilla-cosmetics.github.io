@@ -64,11 +64,21 @@ Let's just take a look on this page:
 
 From here we are interested on the **shop** and on the **shopping cart**. How the shop is working? 
 
-![]()
+Let's select some products with different quantities and go to our shopping cart:
 
+![gif-3](assets/gifs/gif-3.gif)
 
+On the shopping cart we can see the products that we selected with the following characteristics:
+- name
+- price per item
+- price per total quantity of the item
+- total bill
 
-![]()
+We can choose from here another quantity of a product, we can delete it, we can empty the shop or we can checkout our order.
+
+Our shopping cart will update automatically with the number of products that we selected.
+
+![gif-4](assets/gifs/gif-4.gif)
 
 
 
